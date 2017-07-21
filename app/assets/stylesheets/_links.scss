@@ -1,0 +1,8 @@
+// Generic links
+a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: $em;
+  font-family: $text-sans;
+  transition: color $transition-short;
+}

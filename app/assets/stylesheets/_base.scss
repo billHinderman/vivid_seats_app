@@ -1,0 +1,20 @@
+body {
+  background: $color-grey-white;
+  color: $color-grey-black;
+  font-family: $text-serif;
+  line-height: 1.44;
+}
+* {
+  box-sizing: border-box;
+}
+::-moz-selection {
+  background: $color-yellow;
+  color: $color-black;
+}
+::selection {
+  background: $color-yellow;
+  color: $color-black;
+}
+img {
+  max-width: 100%;
+}

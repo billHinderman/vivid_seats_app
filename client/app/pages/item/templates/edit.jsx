@@ -37,11 +37,11 @@ export default class ItemEdit extends React.Component {
   }
 
   render() {
-    let viewState = consolidateState(this.state.isError,this.state.isLoaded,this.state.isLoading);
+    let { isError, isLoaded, isLoading} = this.state
+    let viewState = consolidateState(isError,isLoaded,isLoading);
     return (
-      <section>
+      <section className="main-content">
         {JSON.stringify(this.state.item)}
-        {viewState}
       </section>
     );
   }

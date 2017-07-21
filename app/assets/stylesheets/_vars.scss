@@ -172,27 +172,3 @@ $z-lightbox: 100;
     -moz-filter: #{"grayscale(#{$value})"};
     filter:#{"grayscale(#{$value})"};
 }
-
-@mixin highlight-emphasis {
-  &::-moz-selection {
-    background: transparentize($color-black,.01);
-    color: $color-white;
-  }
-  &::selection {
-    background: transparentize($color-black,.01);
-    color: $color-white;
-  }
-  & * {
-    &::-moz-selection {
-      background: transparentize($color-black,.01);
-      color: $color-white;
-    }
-    &::selection {
-      background: transparentize($color-black,.01);
-      color: $color-white;
-    }
-  }
-}
-
-@-webkit-keyframes love {0%, 100%{-webkit-transform:scale(1);transform:scale(1)}10%{-webkit-transform:scale(1.3);transform:scale(1.3)}25%{-webkit-transform:scale(1.2);transform:scale(1.2)}35%{-webkit-transform:scale(1.3);transform:scale(1.3)}}
-@keyframes love {0%, 100%{-webkit-transform:scale(1);transform:scale(1)}10%{-webkit-transform:scale(1.3);transform:scale(1.3)}25%{-webkit-transform:scale(1.2);transform:scale(1.2)}35%{-webkit-transform:scale(1.3);transform:scale(1.3)}}

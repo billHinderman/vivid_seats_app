@@ -1,1 +1,7 @@
-
+.site-header {
+  border-bottom: $em-xxxs solid $color-black;
+  .header-content {
+    margin: auto;
+    padding: $em-s $em;
+  }
+}

@@ -1,0 +1,14 @@
+.site-main {
+  min-height: 100vh;
+  .main-content {
+    margin: auto;
+    max-width: $m-l;
+    padding: $em-xxxxl $em 0;
+
+    p + *,
+    ul + *,
+    figure + * {
+      margin-top: $em-xl;
+    }
+  }
+}

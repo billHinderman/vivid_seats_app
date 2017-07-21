@@ -35,8 +35,6 @@ class Cx::ItemsController < ApplicationController
 
   private
 
-  private
-
   def get_item
     @item = Item.find(item_id)
   end
