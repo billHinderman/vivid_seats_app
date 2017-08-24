@@ -14,6 +14,7 @@ const config = {
     'babel-polyfill',
     './app/components/startup/registration',
     './app/pages/item/startup/registration',
+    './app/pages/event/startup/registration',
   ],
 
   output: {
